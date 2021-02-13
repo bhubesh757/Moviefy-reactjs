@@ -1,0 +1,94 @@
+.loginscreen {
+    position: relative;
+    height: 100%;
+    background: url('https://thebutlercollegian.com/wp-content/uploads/2019/03/netflix-image.jpg')
+    center no-repeat
+    ;
+    background-size: cover;
+
+}
+
+.loginscreen__gradient {
+    width: 100%;
+    z-index: 1;
+    height: 100vh;
+    background-image:linear-gradient(
+       
+        rgba(0, 0,0, 0.8) 0,
+            rgba(0,0 ,0,0) 60% ,
+            rgba(0, 0,0, 0.8) 100% 
+    ) 
+    ;
+
+}
+
+.loginscreen__logo {
+    position: fixed;
+    left: 0;
+    width: 100px;
+    object-fit: contain;
+    padding-left: 20px;
+}
+
+.loginscreen__button {
+    position: fixed;
+    right: 20px;
+    top: 20px;
+    padding: 10px 20px ;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #e50914;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+}
+.loginscreen__body {
+    position: absolute;
+    top: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    z-index: 1;
+    color: white;
+    padding: 20px;
+    left: 0;
+    right: 0;
+}
+
+.loginscreen__body > h1 {
+    font-size: 3.125rem;
+    margin-bottom: 20px;
+}
+
+.loginscreen__body > h2 {
+    /* font-size:rem; */
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.loginscreen__body > h3 {
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+.loginscreen__input {
+    margin: 20px;
+}
+
+.loginscreen__input > form > input {
+    padding: 20px;
+    outline-width: 0;
+    height: 13px;
+    width: 50%;
+    border: none;
+    max-width: 600px;
+
+}
+
+.loginscreen__getStarted {
+    padding: 16px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #e50914;
+    font-weight: 800;
+    border: none;
+    cursor: pointer;
+}
